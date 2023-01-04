@@ -55,7 +55,7 @@ app.post("/app/login",(req,res)=>{
 console.log("userData",userData)
 if (username!=userData.uname) {
     res.status(401)
-    console.log("invalid User")
+    console.log("invalid User Login")
     
 } else 
     if (password!=userData.password) {
